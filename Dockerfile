@@ -5,5 +5,5 @@ ADD . /home/app2
 WORKDIR /home/app2
 RUN npm install --registry=https://registry.npm.taobao.org
 
-EXPOSE 8080
+EXPOSE 3000
 CMD ["npm", "start"]
